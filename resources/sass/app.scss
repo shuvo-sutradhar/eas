@@ -1,0 +1,95 @@
+@import 'variables';
+// admin-lte
+@import '~admin-lte/dist/css/adminlte.css';
+// @import '~bootstrap/scss/bootstrap';
+@import '~sweetalert2/src/sweetalert2';
+
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/* Scrollbar Styling */
+.custom-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-sidebar::-webkit-scrollbar-track {
+    background-color: #343a40;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.custom-sidebar::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #6d6d6d;
+}
+
+.sidebar-form, .nav-sidebar > .nav-header {
+    padding: 5px 5px !important;
+}
+
+.nav-link.router-link-exact-active.router-link-active {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+}
+
+.sidebar-collapse .brand-link > .lg-logo, .sidebar-mini.sidebar-collapse .main-sidebar:hover .sm-logo, .brand-link > .sm-logo, .sidebar-collapse .nav-item > .nav-link > span {
+    display: none;
+}
+
+.nav-pills .nav-link{
+    border-radius: .25rem !important;
+}
+
+.tbl-btns .dropdown-toggle{
+    padding: 2px 10px;
+  }
+  
+  .tbl-btns .dropdown-toggle::after{
+    display: none;
+  }
+
+  .permisson-card {
+    padding: 0;
+}
+
+.permisson-card ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+.permisson-card ul li {
+    padding: 8px 25px;
+    border-bottom: 1px solid #e8eced;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.permisson-card ul li label {
+    margin-bottom: 0px;
+}
+
+.permisson-card ul li:last-child {
+    border-bottom: 0;
+}
+.permission.invalid-feedback {
+  display: block;
+  padding: 5px 0 15px 15px;
+}
